@@ -1,0 +1,51 @@
+button{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+
+    
+}
+
+button:hover{
+    background-color: green;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+td{
+    border: 1 px solid black;
+    padding: 2px;
+}
+th{
+    border: 1px solid black;
+    padding: 2px;
+}
+#container{
+    display: flex;
+    flex-wrap:wrap;
+}
+#container > div{
+    background-color: green;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+.grip{
+    background-color: green;
+    display: grid;
+    padding:20px;
+    grid-column-gap: 20px;
+    grid-row-gap:10px;
+    grid-template-columns:300px 250px auto;
+}
+.grid-item{
+    background-color: white;
+    font-size: 20px;
+    padding:20px;
+    text-align: center;
+}
